@@ -1,0 +1,485 @@
+body{
+  font-family:  'Titillium Web', sans-serif;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+    direction: ltr;
+}
+
+.clear{
+    clear: both;
+}
+
+.Section{
+  width: 100%;
+  height: auto;
+  padding: 52px 0px 137px 0px;
+  box-sizing: border-box;
+}
+.firstSection{
+  background-color: #87509c;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 50%;
+    float: left;
+}
+
+.menu{
+    width: 50%;
+    float: right;
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left:35px;
+}
+
+.menu ul li a{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: regular;
+    text-decoration: none;
+}
+.menu ul{
+    text-align: right;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+.menu ul li:first-child{
+    margin-left: 0px;
+}
+
+p.TitleDesc{
+    font-size: 42.16px;
+    font-weight: regular;
+    text-align: center;
+    margin-left: 80px;
+   margin-top: 130px;
+}
+
+.firstLink {
+  background-color: #eb7d4b;
+  padding: 22px 80px;
+  margin-left: 400px;
+  margin-top: 52px;
+  width: 155px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 0px 5px #c86a40;
+  transition-duration:0.2s;
+
+}
+
+.firstLink a{
+  color: white;
+  font-weight: SemiBold;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.firstLink:hover{
+	 background : #FE9A2E;
+    transition-duration:0.2s;
+}
+
+
+.SecondSection{
+  background-color: #17c2a4;
+}
+
+.SecondSection h2{
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+ p.Description{
+  font-size: 18px;
+  font-weight: regular;
+  text-align: center;
+}
+
+.row{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+.ManyTerm{
+    float: left;
+    width:25%;
+    height: auto;
+}
+
+.Term{
+  float: right;
+    width: calc(100% - 15px);
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left:5px;
+}
+
+.Term h3{
+  font-size: 22px;
+  color:#FFFFFF;
+  margin-left: 15px;
+}
+
+.Term p{
+  font-size: 16px;
+  font-weight: light;
+  color: #FFFFFF;
+
+}
+
+.BRANDING:first-child{
+    margin-left: 0px;
+}
+
+
+.ThirdSection{
+  background-color: #e7f1f8;
+}
+
+.ThirdSection h2{
+  font-size: 41.29px;
+  color: #000000;
+  text-align: center;
+}
+
+span.Descript{
+  font-size: 18.58px;
+  font-weight: regular;
+  color: #000000;
+  display: block;
+  text-align: center;
+}
+
+.Term2 h3{
+  font-size: 24px;
+  color: #27283d;
+}
+
+.Term2 h4{
+  font-size: 16px;
+  font-weight: regular;
+  color: #48c1e9;
+  text-align: center;
+}
+
+.Term2 p{
+  font-size: 16px;
+  font-weight: light;
+  color: #788192;
+  text-align: center;
+}
+
+.social{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top:30px;
+}
+
+.social a{
+    width: 30px;
+    height: 30px;
+    background: #bdd1df;
+    border-radius: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-left:15px;
+    line-height: 30px;
+    transition-duration: 0.2s;
+}
+.social a:first-child{
+    margin-left: 0px;
+}
+.social a:hover{
+    background:#585858;
+    transition-duration: 0.2s;
+}
+
+.FourthSection{
+  background-color: #ffdd99 ;
+}
+.FourthSection h2{
+  font-size: 40px;
+  color: #393939;
+  font-weight: regular;
+  text-align: center;
+}
+
+.FourthSection p{
+  font-size: 18px;
+  color: #393939;
+  font-weight: regular;
+  text-align: center;
+}
+
+.OurPortfolio{
+  margin-bottom: 100px;
+}
+
+.OurPortfolio h3{
+  font-size: 18px;
+  color: #393939;
+  font-weight: regular;
+
+}
+
+.featuresDesc{
+    float: right;
+    width: calc(100% - 50%px);
+    box-sizing: border-box;
+    padding-right: 160px;
+    margin-top: 25px;
+}
+
+.FourthSection .row2{
+	width: 100%;
+	height: auto;
+	margin-top:85px;
+	}
+
+	.FourthSection .row2 .OurPortfolio{
+    float: left;
+    width:50%;
+    height: auto;
+	}
+
+
+.FourthSection a{
+  font-size: 18px;
+  font-weight:bold;
+  color:#f7f3ea;
+  background: #17c2a4;
+  margin-left: 370px;
+  text-decoration: none;
+  text-align: center;
+  border-color: #eb7d4b;
+  border-radius: 5px;
+  padding: 24px 65px;
+  box-sizing: border-box;
+  box-shadow: 0px 6px #14a58c;
+  border: 0px;
+  transition-duration:0.2s;
+  margin-bottom: 100px;
+}
+
+.FourthSection a:hover{
+	cursor: pointer;
+	 background : #15b58f;
+    transition-duration:0.2s;
+
+}
+
+
+.FifthSection{
+  background-color: #d74680;
+}
+
+
+.FifthSection h2{
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;
+}
+.FifthSection span{
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: regular;
+  display: block;
+  text-align: center;
+}
+
+.row3{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+.featuresItem{
+    float: left;
+    width:50%;
+    height: auto;
+padding-right: 90px;
+box-sizing: border-box;
+}
+.person{
+    float: left;
+    width: 10px;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding-top:80px;
+}
+
+.person img{
+  width:100px;
+  height: 96px;
+}
+
+.PersonDescr{
+    float: right;
+    width: calc(100% - 60px);
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+.PersonDescr p{
+font-size: 16px;
+color: #eca9c4;
+padding-top: 72px;
+padding-left: 45px;
+box-sizing: border-box;
+}
+
+.PersonDescr h3{
+    font-size: 22px;
+    color: #ffffff;
+    padding-left: 45px;
+    margin-top: 28px;
+    box-sizing: border-box;
+}
+
+.PersonDescr h4{
+    font-size: 18px;
+    color: #ffdd99;
+    font-weight: regular;
+    padding-left: 45px;
+    margin-top: -17px;
+    box-sizing: border-box;
+}
+
+.SixthSection{
+background-color: #3c5499;
+}
+
+.SixthSection h2{
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.SixthSection span{
+  font-size: 18px;
+  color: #e5e8f1;
+  font-weight: regular;
+  display: block;
+  text-align: center;
+}
+
+.NameInput{
+height: 50px;
+background-color: #273a71;
+border-radius: 4px;
+padding-left:20px;
+margin-top: 70px;
+margin-right: 20px;
+border: 0px;
+width: 417px;
+font-size: 16px;
+color: #FFFFFF;
+}
+
+
+.MailInput{
+height: 50px;
+background-color: #273a71;
+border-radius: 4px;
+padding-left:20px;
+margin-top: 70px;
+margin-right: 20px;
+border: 0px;
+width: 417px;
+font-size: 18px;
+color: #FFFFFF;
+}
+
+textarea{
+  background-color: #273a71;
+  color: white;
+  font-size: 18px;
+  font-family:  'Titillium Web', sans-serif;
+height: 250px;
+border-radius: 4px;
+margin-top:30px;
+padding-left: 10px;
+
+margin-left:-30px;
+border: 0px;
+width: 870px;
+font-size: 16px;
+}
+
+.SixthSection form{
+    text-align: center;
+    margin-top:40px;
+}
+
+
+.Send a{
+    font-size: 18px;
+    font-weight: SemiBold;
+    color:#f7f3ea;
+    background: #17c2a4;
+    margin-left: 430px;
+    text-decoration: none;
+    border-color: #eb7d4b;
+    border-radius: 5px;
+    padding: 20px 65px;
+    box-sizing: border-box;
+    box-shadow: 0px 6px #14a58c;
+    border: 0px;
+    transition-duration:0.2s;
+
+  }
+
+  .Send a:hover{
+  	cursor: pointer;
+  	 background : #15b58f;
+      transition-duration:0.2s;
+
+  }
+
+  .keepSection{
+      background:  #344b8e;
+  }
+
+.footerColumn{
+    width: 14.2%;
+    height: auto;
+    float: left;
+    padding-top: 50px;
+    box-sizing: border-box;
+
+}
+
+
+.footerColumn a{
+    color: white;
+    font-size: 24px;
+    font-weight: SemiBold;
+    display: block;
+    text-align: right;
+    padding-bottom: 35px;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition-duration: 0.2s;
+
+
+
+}
+.footerColumn a:hover{
+    color: #17c2a4;
+    transition-duration: 0.2s;
+}
